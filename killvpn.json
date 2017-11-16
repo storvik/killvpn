@@ -1,0 +1,12 @@
+{
+    "VPNhosts": [
+        { "Hostname":"se.mullvad.net", "Port":"1195" },
+        { "Hostname":"nl.mullvad.net", "Port":"1195" },
+        { "Hostname":"de.mullvad.net", "Port":"1196" }
+    ],
+    "VPNdevice": "tun0",
+    "NetworkDevices": [ "wlp3s0", "enp2s0" ],
+    "LocalNetworks": [ "192.168.0.0/16" ],
+    "VPNapps": [ "firefox", "transmission-gtk" ],
+    "Verbose": true
+}

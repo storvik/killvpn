@@ -1,0 +1,13 @@
+[Unit]
+Description=KillVPN - VPN kill switch toggler
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/killvpn/killvpn --config /home/storvik/.killvpn.json --verbose enable
+RemainAfterExit=true
+ExecStop=/opt/killvpn/killvpn --config /home/storvik/.killvpn.json --verbose disable
+StandardOutput=journal
+
+[Install]
+WantedBy=multi-user.target
