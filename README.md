@@ -1,5 +1,7 @@
 # killvpn - VPN kill switch toggler written in Go
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/storvik/killvpn)](https://goreportcard.com/report/github.com/storvik/killvpn)
+
 VPN kill switch that aims to prevent network traffic through anything other than specified interface.
 Tested on Ubuntu 17.10 using Mullvad VPN.
 [Inspiration and approach.](https://www.nukeador.com/06/07/2017/vpn-kill-switch-for-linux-protect-from-vpn-drops-and-dns-leaks/)
